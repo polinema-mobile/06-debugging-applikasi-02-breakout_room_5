@@ -23,7 +23,6 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
         @Test
         public void tesKlikButtonSatu(){
-            //cari id button1 terus di klik
             onView(withId(R.id.button1)).perform(click());
             onView(withId(R.id.button2)).perform(click());
             onView(withId(R.id.button3)).perform(click());
