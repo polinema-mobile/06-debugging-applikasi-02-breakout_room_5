@@ -22,7 +22,7 @@ public class TestAngka {
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
     @Test
-    public void tesKlikButtonSatu(){
+    public void testAngka(){
         //cari id button1 terus di klik
         onView(withId(R.id.button1)).perform(click());
         onView(withId(R.id.button2)).perform(click());
